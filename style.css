@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: cadetblue;
+    scrollbar-width: thin;
+    transition: 0. 3s ease-out;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin-top: 0px;
+    
+}
+.body{
+    
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+.nav-link{
+    color:white;
+    margin:0 20px;
+    text-decoration: none;
+    font-size: 35px;
+    transition: ease-in;
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.nav-link:hover{
+    color: green
+}
+
+.headh1{
+    background-image: url('Images/Grow-billion-trees-home-slide.webp');
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    height: 50vh;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    font-size: larger;
+    border-radius: 15px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 100%;
+    background-position:50%
+}
+.heritage-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:auto;
+   box-shadow:0 4px 8px rgba(21, 17, 17, 0.1);
+   
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    transition: transform 0.3s;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+   box-sizing: border-box;
+   border : none;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.heritage-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.Nellaiappar{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    border : black solid 3px;
+    margin: 20px;
+    float: left;
+}
+.Nellaiappar:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+.Nellai_h3{
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.heri_site{
+    width:350px;
+    font-size: 1.1rem;;
+}
+.div1{
+    width: 100px;
+}
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.name1{
+    font-size: larger;
+    font-family: sans-serif;
+}
+.heritage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-right: 5%;
+    width: 100%;
+    align-items: flex-start; 
+}
+.about{
+    font-size: 1.2rem;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #5676ff;
+    
+    border-radius: 15px;
+}
+.heritage-bg {
+    background-color: #9eff90;     /* Green shade matching your box1 */
+    border-radius: 20px;
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(21, 17, 17, 0.1);
+}
+.box{
+     margin: 20px;
+    border : solid 1px #ccc;
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(21, 17, 17, 0.1);
+
+}
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .heritage {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        font-size: 24px; /* Make nav links smaller on mobile */
+        margin: 10px 0;
+    }
+
+    .headh1 h1 {
+        font-size: 28px; /* Adjust header font size */
+    }
+
+    .headh1 p h2 {
+        font-size: 18px; /* Adjust sub-header font size */
+    }
+
+    .heritage-card {
+        margin: 15px 0; /* Adjust card margins */
+        padding: 15px;
+    }
+
+    .Nellaiappar{
+        width: 100%; /* Make images fill the card width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .about {
+        font-size: 1rem; /* Adjust font size for better reading on mobile */
+        padding: 15px;
+    }
+}
